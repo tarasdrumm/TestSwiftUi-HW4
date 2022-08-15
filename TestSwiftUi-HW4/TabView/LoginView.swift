@@ -60,12 +60,12 @@ struct LoginView: View {
                 Button {
                     authResult = LocalAuthorizationService().loginSuccess(login: username, password: password)
                 }
-            label: {
-                HStack {
-                    Spacer()
-                    Text("Вход")
-                    Spacer()
-                }
+                label: {
+                    HStack {
+                        Spacer()
+                        Text("Вход")
+                        Spacer()
+                    }
             }
             .padding()
             .contentShape(Rectangle())
@@ -95,7 +95,6 @@ struct LoginView: View {
                         EmptyView()
                     }
                 }
-                
                 NavigationLink(destination: MainView(), tag: true, selection: $authResult) {}
                 
                 Spacer()
@@ -106,8 +105,6 @@ struct LoginView: View {
                                 trailing: 16))
             
         }
-        
-       
     }
 }
 

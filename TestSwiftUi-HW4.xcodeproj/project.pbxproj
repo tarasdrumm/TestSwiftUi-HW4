@@ -19,6 +19,7 @@
 		260691A428AA56C000708507 /* LocalAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260691A328AA56C000708507 /* LocalAuthorizationService.swift */; };
 		260691A628AA56EF00708507 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260691A528AA56EF00708507 /* MainView.swift */; };
 		260691AB28AA73EA00708507 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260691AA28AA73EA00708507 /* Examples.swift */; };
+		2649D89128AAB76700B460D0 /* LocalNotificationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2649D89028AAB76700B460D0 /* LocalNotificationsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		260691A328AA56C000708507 /* LocalAuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthorizationService.swift; sourceTree = "<group>"; };
 		260691A528AA56EF00708507 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		260691AA28AA73EA00708507 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		2649D89028AAB76700B460D0 /* LocalNotificationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +71,9 @@
 			children = (
 				2606918828A9878200708507 /* TestSwiftUi_HW4App.swift */,
 				2606918A28A9878200708507 /* ContentView.swift */,
-				260691A328AA56C000708507 /* LocalAuthorizationService.swift */,
 				260691A528AA56EF00708507 /* MainView.swift */,
+				2649D89228AACBA500B460D0 /* AuthorizationService */,
+				2649D89328AACBCA00B460D0 /* NotificationsService */,
 				260691A028A988BB00708507 /* TabView */,
 				2606918C28A9878400708507 /* Assets.xcassets */,
 				260691AC28AA740500708507 /* Примеры из лекции */,
@@ -105,6 +108,22 @@
 				260691AA28AA73EA00708507 /* Examples.swift */,
 			);
 			path = "Примеры из лекции";
+			sourceTree = "<group>";
+		};
+		2649D89228AACBA500B460D0 /* AuthorizationService */ = {
+			isa = PBXGroup;
+			children = (
+				260691A328AA56C000708507 /* LocalAuthorizationService.swift */,
+			);
+			path = AuthorizationService;
+			sourceTree = "<group>";
+		};
+		2649D89328AACBCA00B460D0 /* NotificationsService */ = {
+			isa = PBXGroup;
+			children = (
+				2649D89028AAB76700B460D0 /* LocalNotificationsService.swift */,
+			);
+			path = NotificationsService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2649D89128AAB76700B460D0 /* LocalNotificationsService.swift in Sources */,
 				2606919D28A9889000708507 /* VideoView.swift in Sources */,
 				260691A628AA56EF00708507 /* MainView.swift in Sources */,
 				2606918B28A9878200708507 /* ContentView.swift in Sources */,

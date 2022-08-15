@@ -11,6 +11,17 @@ struct MainView: View {
     var body: some View {
         Text("Авторизация прошла успешно")
             .padding()
+            .onAppear {
+                
+            // Сброс badge number после авторизации
+            UIApplication.shared.applicationIconBadgeNumber = 0
+                
+            // Разрешение на показ уведомлений
+            if !UserDefaults.standard.bool(forKey: "alertPermissionsShowed") {
+                LocalNotificationsService.requestPermissions()
+                UserDefaults.standard.set(true, forKey: "alertPermissionsShowed")
+            }
+        }
     }
 }
 

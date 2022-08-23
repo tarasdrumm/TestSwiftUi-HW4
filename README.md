@@ -1,3 +1,7 @@
+![Запись экрана 2022-08-23 в 14 35 43](https://user-images.githubusercontent.com/78212378/186156477-d98235bd-88aa-4f94-8e96-5e8cfc6eb645.gif)
+
+![Запись экрана 2022-08-23 в 14 41 00](https://user-images.githubusercontent.com/78212378/186154432-a67b7905-d20c-4c16-a4c9-dffd7ec488e9.gif)
+
 - Выполнено ДЗ по теме SwiftUI
 
 Задача 1:
